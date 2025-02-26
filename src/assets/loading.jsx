@@ -21,7 +21,7 @@ const StyledWrapper = styled.div`
   .spinner {
    height: 150px;
    width: max-content;
-   font-size: 18px;
+   font-size: 21px;
    font-weight: 600;
    font-family: monospace;
    letter-spacing: 1em;
@@ -30,7 +30,7 @@ const StyledWrapper = styled.div`
    display: flex;
    justify-content: center;
    align-items:center;
-   padding-left:400px;
+   padding-left:650px;
    margin-top:200px;
   }
 

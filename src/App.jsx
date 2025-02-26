@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import { lazy,Suspense } from 'react'  
 
-import Sign_in from './pages/Sign_in'
+import Homepage from './pages/Homepage'
 import Sign_up from './pages/Sign_up'
 import Welcome from './pages/Welcome'
 const Welcome_one= lazy(()=> import ('./pages/Welcome_one'))
@@ -20,10 +20,9 @@ const App = () => {
       // fontSize:'100px'
     }}><Loader/></div>}>
       <Routes>
-        <Route path='/' element={<Sign_in/>}/>
+        <Route path='/' element={<Homepage/>}/>
         <Route path='/home' element = {<Navigate to= '/'/>} />
-
-        <Route path='/sign_in' element={<Sign_in/>}/>
+        <Route path='/sign_in' element={<Homepage/>}/>
         <Route path='/sign_up' element={<Sign_up/>}/>
         <Route path='/welcome' element={<Welcome/>}/>
         <Route path='/welcome/one' element={<Welcome_one/>}/>

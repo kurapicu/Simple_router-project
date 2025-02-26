@@ -31,7 +31,7 @@ const More_info = () => {
         if (isMounted) {
           setLoading(false);
         }
-      }, 7000);
+      }, 2000);
     };
 
     fetchUser();

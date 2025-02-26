@@ -1,0 +1,26 @@
+.rec{
+    flex-basis: 30%;
+}
+.sid-vid-{
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 8px;
+}
+.sid-vid- img{
+    flex-basis: 100%;
+    width:50%;
+    border-radius:10px;
+}
+.vid-i{
+    flex-basis: 52%;
+
+}
+.vid-i h4{
+    font-size: 13px;
+    margin-bottom: 1px;
+    color: black;
+    margin-top: 9px
+}
+.vid-i p {
+    font-size: 14px;
+}
